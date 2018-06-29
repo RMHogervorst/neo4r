@@ -23,7 +23,8 @@ Neo4j recommondations
 # notes on scope of tidygraph-neo4j
 
 I will dump the entire graph into neo4j. 
-The first approach is creating a tbl_graph to cypher translation of the two tables.
+The first approach is creating a tbl_graph to cypher translation of the nodes and edges.
+Next Iĺl translate the resulting object from the api into a tidygraph object
 
 I hope to manipulate the graph from R with tidygraph verbs. 
 
